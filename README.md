@@ -2,7 +2,7 @@
 
 This Streamlit app predicts the risk of **heart disease** based on user input using a **Decision Tree Classifier** trained on real-world medical data.
 
-🔗 Live Demo (Optional): [your-deployment-link]
+🔗 Live Demo (Optional): https://heartdiseaseriskpredicting.streamlit.app/
 
 ## 🧠 Model
 
@@ -48,6 +48,8 @@ source venv/bin/activate  # or .\venv\Scripts\activate
 
 # Install dependencies
 pip install -r requirements.txt
+python train_model.py
 
 # Run Streamlit
 streamlit run app.py
+
